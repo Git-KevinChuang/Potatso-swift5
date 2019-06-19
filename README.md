@@ -47,8 +47,10 @@ Be warned that you **should not** call `pod update` as newer version of pod fram
 2. `cd Potatso_swift5`
 3. `git submodule update --init` to update git submodule
 4. `pod install` to pull down dependencies into our project
-5. Open `Potatso_swift5.xcworkspace` then Build and Run the project. Done.
-
+5. Open `Potatso_swift5.xcworkspace` then Build and Run the project.
+6. Change the targets-Potaso bundle identifier (use your's),do the same to targets-PacketTunnel,targets-TodayWidget bundle
+7. Change the targets-Potaso-Capabilities App Groups,iCloud,keychain Sharing,do the same to PacketTunnel,TodayWidget
+8. Now your can run it on your device
 
 ## License
 
