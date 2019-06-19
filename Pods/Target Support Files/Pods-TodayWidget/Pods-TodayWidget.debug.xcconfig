@@ -1,0 +1,11 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Cartography" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket" "${PODS_CONFIGURATION_BUILD_DIR}/ICSMainFramework" "${PODS_CONFIGURATION_BUILD_DIR}/KeychainAccess" "${PODS_CONFIGURATION_BUILD_DIR}/KissXML" "${PODS_CONFIGURATION_BUILD_DIR}/MMWormhole" "${PODS_CONFIGURATION_BUILD_DIR}/Realm" "${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftColor"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Cartography/Cartography.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ICSMainFramework/ICSMainFramework.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KeychainAccess/KeychainAccess.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KissXML/KissXML.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MMWormhole/MMWormhole.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Realm/Realm.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift/RealmSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftColor/SwiftColor.framework/Headers" $(SDKROOT)/usr/include/libxml2
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks' '@executable_path/../../Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Realm/core"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"xml2" -l"z" -framework "CFNetwork" -framework "Cartography" -framework "CocoaAsyncSocket" -framework "Foundation" -framework "ICSMainFramework" -framework "KeychainAccess" -framework "KissXML" -framework "MMWormhole" -framework "Realm" -framework "RealmSwift" -framework "Security" -framework "SwiftColor" -framework "WatchConnectivity"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
