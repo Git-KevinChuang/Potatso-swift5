@@ -43,7 +43,7 @@ The project will be further reduced for its dependencies.
 Perform the following steps to be able to build the project.
 Be warned that you **should not** call `pod update` as newer version of pod frameworks that Potatso depends on might break building process and there will be errors.
 
-1. `git clone xxxxxx` or for faster using less time in cloning `git clone https://github.com/haxpor/Potatso.git --depth=1`
+1. `git clone this project path`
 2. `cd Potatso_swift5`
 3. `git submodule update --init` to update git submodule
 4. `pod install` to pull down dependencies into our project
