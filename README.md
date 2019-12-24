@@ -2,8 +2,9 @@
 
 ![GPLv3 License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
-# Potatso_swift5
- Potatso compiled with swift5 xcode 10.2.1 mojave 10.14.5
+## Potatso_swift5
+# Potatso compiled with swift5 
+# test xcode 10.2.1 11.2.1 mojave 10.14.5 10.15.1
 
 ## Important
 
